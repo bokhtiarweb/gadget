@@ -68,8 +68,8 @@ export default function Details() {
                 </div>
                     
                     <div className="flex items-center mt-4 w-[250px]">
-                        <a className="flex items-center font-semibold text-white py-2 px-4 mr-4 rounded-full bg-commonColor cursor-pointer">
-                        <span onClick={() => handelAddCart(product)} className='mr-2 text-lg mt-2'>Add To Card </span><BsCart4 className='text-xl'></BsCart4>
+                        <a onClick={() => handelAddCart(product)} className="flex items-center font-semibold text-white py-2 px-4 mr-4 rounded-full bg-commonColor cursor-pointer">
+                        <span className='mr-2 text-lg mt-2'>Add To Card </span><BsCart4 className='text-xl'></BsCart4>
                         </a>
 
                         

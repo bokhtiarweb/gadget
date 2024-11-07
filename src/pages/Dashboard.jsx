@@ -69,7 +69,7 @@ export default function Dashboard() {
 
             </div>
             </div>) || toggleBtn !== 'wishlist' ? (<div className='flex justify-center items-center gap-2'>
-            <h2 className='text-2xl font-bold'>Total Cost: <span>{showTotal()}</span></h2>
+            <h2 className='text-2xl font-bold'>Total Cost: <span>${showTotal()}</span></h2>
             <div className='flex gap-2'>
               <a onClick={() => sortByPrice()} className='flex py-2 px-4 border border-commonColor font-bold rounded-badge cursor-pointer'>Sort by Price</a>
 
@@ -80,10 +80,10 @@ export default function Dashboard() {
 {/* You can open the modal using document.getElementById('ID').showModal() method */}
 <dialog id="my_modal_4" className="modal">
   <div className="modal-box w-11/12 max-w-5xl text-center">
-  <img src="../src/assets/Group.png" className='mx-auto mb-2' alt="" />
+  <img src="/Group.png" className='mx-auto mb-2' alt="" />
     <h3 className="font-bold text-lg">Payment Successfull !</h3>
     <p className="py-4">Thank you for Purchasing</p>
-    <p>{showTotal()}</p>
+    <p>${showTotal()}</p>
     <div className="modal-action">
       <form method="dialog" className='mx-auto'>
         {/* if there is a button, it will close the modal */}
