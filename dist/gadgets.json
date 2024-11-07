@@ -1,0 +1,134 @@
+[
+    {
+        "product_id": "P001",
+        "product_title": "Wireless Headphones",
+        "product_image": "https://i.ibb.co.com/z4nb9z2/Headphone.jpg",
+        "category": "Electronics",
+        "price": 59.99,
+        "description": "High-quality wireless headphones with noise cancellation.",
+        "specification": ["Bluetooth 5.0", "20 hours battery life", "Over-ear design"],
+        "availability": true,
+        "rating": 3.5
+    },
+    {
+        "product_id": "P002",
+        "product_title": "Smartwatch",
+        "product_image": "https://i.ibb.co.com/0XcVLM1/Watch-1.jpg",
+        "category": "Smartwatch",
+        "price": 199.99,
+        "description": "Feature-packed smartwatch with fitness tracking.",
+        "specification": ["Heart rate monitor", "GPS", "Water resistant"],
+        "availability": true,
+        "rating": 4.7
+    },
+    {
+        "product_id": "P003",
+        "product_title": "Laptop Stand",
+        "product_image": "https://i.ibb.co.com/x756G5w/Laptop.jpg",
+        "category": "Electronics",
+        "price": 79.99,
+        "description": "Adjustable laptop stand for better ergonomics.",
+        "specification": ["Aluminum", "Foldable", "Ventilated"],
+        "availability": true,
+        "rating": 4.2
+    },
+    {
+        "product_id": "P004",
+        "product_title": "Bluetooth Speaker",
+        "product_image": "https://i.ibb.co.com/6rB2n42/Bluetooth.jpg",
+        "category": "Electronics",
+        "price": 69.99,
+        "description": "Portable Bluetooth speaker with excellent sound quality.",
+        "specification": ["Water resistant", "12 hours battery life", "Built-in microphone"],
+        "availability": true,
+        "rating": 2.6
+    },
+    {
+        "product_id": "P005",
+        "product_title": "Bluetooth Earphone",
+        "product_image": "https://i.ibb.co.com/z4nb9z2/Headphone.jpg",
+        "category": "Smartwatch",
+        "price": 99.99,
+        "description": "Durable case for bluetooth earhpone protection.",
+        "specification": ["Shock resistant", "Slim fit", "Multiple colors"],
+        "availability": false,
+        "rating": 4.0
+    },
+    {
+        "product_id": "P006",
+        "product_title": "Gaming Mouse",
+        "product_image": "https://i.ibb.co.com/nCkRvxr/Mouse-2.jpg",
+        "category": "Electronics",
+        "price": 39.99,
+        "description": "High precision gaming mouse with customizable buttons.",
+        "specification": ["RGB lighting", "16000 DPI", "Ergonomic design"],
+        "availability": true,
+        "rating": 3.8
+    },
+    {
+        "product_id": "P007",
+        "product_title": "4K Monitor",
+        "product_image": "https://i.ibb.co.com/xFPhWtY/Monitor.jpg",
+        "category": "Laptop",
+        "price": 349.99,
+        "description": "Ultra HD monitor with vibrant colors.",
+        "specification": ["27 inches", "HDR support", "IPS panel"],
+        "availability": true,
+        "rating": 2.9
+    },
+    {
+        "product_id": "P008",
+        "product_title": "Action Camera",
+        "product_image": "https://i.ibb.co.com/S77L4X8/Camera.jpg",
+        "category": "Laptop",
+        "price": 129.99,
+        "description": "Compact action camera for adventure enthusiasts.",
+        "specification": ["4K video", "Waterproof case", "Wide-angle lens"],
+        "availability": true,
+        "rating": 4.4
+    },
+    {
+        "product_id": "P009",
+        "product_title": "Fitness Tracker",
+        "product_image": "https://i.ibb.co.com/QNZTMx5/Feetness.jpg",
+        "category": "Accessories",
+        "price": 69.99,
+        "description": "Monitor your fitness levels with this stylish tracker.",
+        "specification": ["Step counter", "Sleep tracking", "Water resistant"],
+        "availability": true,
+        "rating": 2.3
+    },
+    {
+        "product_id": "P010",
+        "product_title": "Electric Toothbrush",
+        "product_image": "https://i.ibb.co.com/647yBy4/Brush.jpg",
+        "category": "Electronics",
+        "price": 79.99,
+        "description": "Effective electric toothbrush for better oral hygiene.",
+        "specification": ["2-minute timer", "Multiple modes", "Rechargeable battery"],
+        "availability": true,
+        "rating": 4.7
+    },
+    {
+        "product_id": "P011",
+        "product_title": "Portable Charger",
+        "product_image": "https://i.ibb.co.com/GHkYPwm/Charger.jpg",
+        "category": "Accessories",
+        "price": 64.99,
+        "description": "High-capacity portable charger for on-the-go charging.",
+        "specification": ["10000mAh", "Dual USB ports", "Fast charging"],
+        "availability": true,
+        "rating": 3.6
+    },
+    {
+        "product_id": "P012",
+        "product_title": "Wireless Mouse",
+        "product_image": "https://i.ibb.co.com/1mzg3hG/Mouse.jpg",
+        "category": "Electronics",
+        "price": 89.99,
+        "description": "Ergonomic wireless mouse for comfortable use.",
+        "specification": ["Long battery life", "Compact design", "Compatible with all OS"],
+        "availability": false,
+        "rating": 3.1
+    }
+]
