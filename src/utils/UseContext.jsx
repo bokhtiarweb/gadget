@@ -19,16 +19,15 @@ export const UsePorvider = ({children}) => {
     }
 
     const handelWishlist = (id) => {
-
       if (!addWishlist.includes(id)) {
         setAddWish(addWish + 1);
         setAddWishlist([...addWishlist, id]);
-        
         toast.success(`Product add to wishlist.`);
 
-      } else {
-        toast.error(`Product with ID ${id.product_id} is already in the wishlist.`);
       }
+      // else {
+      //   toast.error(`Product with ID ${id.product_id} is already in the wishlist.`);
+      // }
       
     }
 

@@ -15,10 +15,7 @@ export default function ErrorPage() {
     <>
     <Navbar />
     <div className={`${loaction.pathname === '/statistics' ? 'bg-commonColor p-10' : ' '} `}>
-
     {loaction.pathname === '/statistics'  && (<Header title='Statistics' description='Odit, illum praesentium soluta error repellat architecto placeat exercitationem repellendus rerum cupiditate velit ipsam qui voluptas sint iste hic aut! Ut, blanditiis!'/>)}
-  
-
     </div>
     <div className='text-center'>
         <h1 className='text-5xl font-bold text-red-600 mt-10'>Not Fount 404</h1>

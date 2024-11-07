@@ -80,7 +80,7 @@ export default function Dashboard() {
 {/* You can open the modal using document.getElementById('ID').showModal() method */}
 <dialog id="my_modal_4" className="modal">
   <div className="modal-box w-11/12 max-w-5xl text-center">
-  <img src="../assets/Group.png" className='mx-auto mb-2' alt="" />
+  <img src="../src/assets/Group.png" className='mx-auto mb-2' alt="" />
     <h3 className="font-bold text-lg">Payment Successfull !</h3>
     <p className="py-4">Thank you for Purchasing</p>
     <p>{showTotal()}</p>

@@ -9,10 +9,10 @@ import {CreatedContext} from "../utils/UseContext"
 import DynamiTitle from '../components/TItle';
 
 export default function Details() {
-    const {handelAddCart, addWish, handelWishlist} = useContext(CreatedContext);
+    const {handelAddCart, addWishlist, handelWishlist} = useContext(CreatedContext);
     const [product, setProduct] = useState([]);
     const {id} = useParams();
-    DynamiTitle('Dahsboard | Gadgets Heaven');
+    DynamiTitle('Details | Gadgets Heaven');
 
     useEffect(() => {
         fetch(`/gadgets.json`).
@@ -73,7 +73,7 @@ export default function Details() {
                         </a>
 
                         
-                        <button onClick={() => handelWishlist(product)} className={`p-1 text-2xl rounded-full bg-white cursor-pointer ${addWish !== 0 ? 'opacity-30 hover:cursor-not-allowed': ' '}`} disabled={addWish !== 0 ? true : false}>
+                        <button onClick={() => handelWishlist(product)} className={`p-1 text-2xl rounded-full bg-white cursor-pointer ${addWishlist.includes(product) && 'opacity-30 hover:cursor-not-allowed'}`} disabled={addWishlist.includes(product)}>
                         <MdOutlineFavoriteBorder></MdOutlineFavoriteBorder>
                         </button>
                     </div>
