@@ -19,4 +19,4 @@ Welcome to our gadgets website, your ultimate destination for the latest tech in
 - delete single product
 - toast massage functionaliy
 
-# Live link: <a href="https://poetic-strudel-535e7c.netlify.app/">Go Live</a>
+# Live link: <a href="https://pathetic-steel.surge.sh/">Go Live</a>
