@@ -12,15 +12,15 @@ const routes = createBrowserRouter([
     {
         path: '/',
         element: <MainLayout />,
-        errorElement: <ErrorPage/>,
+        errorElement: <ErrorPage />,
         children: [
             {
                 path: '/',
                 element: <Home />,
             },
             {
-                path: '/statistics',
-                element: <Statistics />
+                path: '',
+                element: <ErrorPage />
             },
             {
                 path: '/dashboard',

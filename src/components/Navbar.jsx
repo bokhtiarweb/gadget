@@ -1,14 +1,12 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { Link, NavLink } from 'react-router-dom'
 import { BsCart4 } from 'react-icons/bs'
 import { MdOutlineFavoriteBorder } from 'react-icons/md'
 import { useLocation } from 'react-router-dom'
-import { useContext } from 'react'
-import { CreatedContext } from '../utils/UseContext'
+
 
 
 export default function Navbar() {
-  const {addCart, addWish} = useContext(CreatedContext);
 const p = useLocation();
 
   const navItem = <>
@@ -51,18 +49,10 @@ const p = useLocation();
         </div>
         <div className="navbar-end">
           <a className="p-1 mr-4 rounded-full bg-[#ECECEC] cursor-pointer relative">
-
-          {addCart == 0 ? ' ' : <div className="badge badge-primary badge-sm absolute -top-2">
-            {addCart == 0 ? ' ' : addCart}
-          </div>}
             <BsCart4 className='text-2xl'></BsCart4>
           </a>
 
           <a className="p-1 text-xl rounded-full bg-[#ECECEC] cursor-pointer relative">
-
-          {addWish == 0 ? ' ' : <div className="badge badge-primary badge-sm absolute -top-3">{addWish == 0 ? ' ' : addWish}
-          </div>}
-
             <MdOutlineFavoriteBorder className='text-2xl'></MdOutlineFavoriteBorder>
           </a>
         </div>
