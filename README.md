@@ -19,4 +19,9 @@ Welcome to our gadgets website, your ultimate destination for the latest tech in
 - delete single product
 - toast massage functionaliy
 
+
+# Required document link 
+# Document link: <a href="https://github.com/bokhtiarweb/gadget/blob/main/required.md">Document</a>
+  
+
 # Live link: <a href="https://pathetic-steel.surge.sh/">Go Live</a>
