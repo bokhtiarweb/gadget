@@ -1,5 +1,3 @@
-// src/components/MyBarChart.js
-
 import React from 'react';
 import DynamiTitle from '../components/TItle';
 import { Bar } from 'react-chartjs-2';
@@ -31,7 +29,7 @@ const MyBarChart = () => {
       },
       title: {
         display: true,
-        text: 'Monthly Sales Data',
+        text: 'Monthly Sales Product',
       },
     },
   };

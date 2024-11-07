@@ -9,7 +9,7 @@ import {CreatedContext} from "../utils/UseContext"
 import DynamiTitle from '../components/TItle';
 
 export default function Details() {
-    const {handelAddCart, handelWishlist} = useContext(CreatedContext);
+    const {handelAddCart, addWish, handelWishlist} = useContext(CreatedContext);
     const [product, setProduct] = useState([]);
     const {id} = useParams();
     DynamiTitle('Dahsboard | Gadgets Heaven');
@@ -23,6 +23,7 @@ export default function Details() {
         })
     }, [id]);
     
+
   return (
     <div>
         <div className='bg-commonColor pt-12 pb-52'>
@@ -71,9 +72,10 @@ export default function Details() {
                         <span onClick={() => handelAddCart(product)} className='mr-2 text-lg mt-2'>Add To Card </span><BsCart4 className='text-xl'></BsCart4>
                         </a>
 
-                        <a onClick={() => handelWishlist(product)} className="p-1 text-2xl rounded-full bg-white cursor-pointer">
-                            <MdOutlineFavoriteBorder></MdOutlineFavoriteBorder>
-                        </a>
+                        
+                        <button onClick={() => handelWishlist(product)} className={`p-1 text-2xl rounded-full bg-white cursor-pointer ${addWish !== 0 ? 'opacity-30 hover:cursor-not-allowed': ' '}`} disabled={addWish !== 0 ? true : false}>
+                        <MdOutlineFavoriteBorder></MdOutlineFavoriteBorder>
+                        </button>
                     </div>
                 
             </div>
