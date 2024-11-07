@@ -17,7 +17,7 @@ const newCats = [...new Set(gadgets.map(items => items.category))];
 const allCats = ['All', ...newCats, 'Phones'];
   
   useEffect(() => {
-    fetch(`./gadgets.json`).
+    fetch(`/gadgets.json`).
     then(res => res.json()).
     then(data => {
       setGadgets(data)
